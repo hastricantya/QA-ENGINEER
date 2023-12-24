@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+    <test thread-count="2" parallel="methods" name="Login Test">
+        <classes>
+            <class name="automation.simple.SeleniumTest">
+                <methods>
+                    <include name="loginTestSucces"/>
+                    <include name="loginTestFailed"/>
+                </methods>
+            </class>
+            <class name="test.LoginTest">
+                <methods>
+                    <include name="successLogin"/>
+                    <include name="failedLogin"/>
+                </methods>
+            </class>
+            <class name="org.example.AppTest">
+                <methods>
+                    <include name="shouldReturnTrue"/>
+                    <include name="shouldReturnFlase"/>
+                </methods>
+            </class>
+            <class name="test.CommonTest">
+                <methods>
+                    <include name="testSwitching"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
