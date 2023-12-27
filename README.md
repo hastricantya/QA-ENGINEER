@@ -12,3 +12,13 @@ Repository ini digunakan untuk belajar menjadi QA-Engineer yang terdiri dari ber
    6. Buka folder simple
    7. Pilih file emailautomation.java
    8. Atau agar lebih mudah, buka intelij > settings > Get from version control > copy link HTTPS repo ini > paste > dan buka file dengan langkah 1-7 lalu run.
+4. Project 4 membuat automation dengan java untuk mengambil top value price di makemytrip pada flights.
+   Langkah-langkah untuk membuka file:
+   1. Buka folder Batch1DigSkol
+   2. Buka folder src
+   3. Buka folder test
+   4. Buka folder java
+   5. Buka folder automation
+   6. Buka folder simple
+   7. Pilih file automation.advance
+   8. Atau agar lebih mudah, buka intelij > settings > Get from version control > copy link HTTPS repo ini > paste > dan buka file dengan langkah 1-7 lalu run.
